@@ -27,11 +27,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         height: 100vh;
         font-family: 'Open Sans', sans-serif;
         background-color: #23022E;
-        color: #23022E;
         padding: 0 32px;
+      }
+
+      div.content > img {
+        display: inline;
+      }
+
+      div.container > p {
+        color: #5d3b68;
+        font-size: 0.5em;
+        position: absolute;
+        bottom: 0;
       }
 
       div.social {
@@ -39,11 +50,15 @@
       }
 
       div.social > a:nth-child(2) {
-        margin-left: 0.2em;
+        margin-left: 0.1em;
       }
 
       div.social > a:nth-child(n+3) {
         margin-left: 0.5em;
+      }
+
+      div.social > a:last-child {
+        margin-left: 0.2em;
       }
     </style>
 
@@ -61,6 +76,7 @@
           <a href="https://keybase.io/teknetia" target="_blank"><img src="imgs/icons8-key-96.png" alt="Keybase" width="48" height="48"></a>
         </div>
       </div>
+      <p>Cute icons by <a href="https://icons8.com/" tartget="_blank">Icons 8</a>.</p>
     </div>
   </body>
 </html>
