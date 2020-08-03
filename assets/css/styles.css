@@ -1,0 +1,18 @@
+.social {
+  margin-top: 24px;
+}
+
+.social a {
+  margin: 0 16px;
+  line-height: 60px;
+}
+
+img {
+  max-width: 500px;
+}
+
+.container.text-center {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
